@@ -1,0 +1,32 @@
+<div class="conatiner">
+	<div class="row">
+		<div class="col-md-5 col-md-offset-3">
+			<form ng-submit="form3_submit()">
+				<div class="form-group">
+					<select ng-model="payment_type" class="form-control">
+						<option value="1">COD</option>
+						<option value="2">Debit Card</option>
+						<option value="3">Credit Card</option>
+						<option value="4">Net Banking</option>
+						<option value="5">Wallet</option>
+					</select>
+				</div>
+
+				<div align="center">
+					<button class="btn btn-primary">Submit</button>
+					<a href="#/red"><button class="btn btn-warning">Back</button></a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- i am having error with ui-select so i havent used i added the code for that which i tried to implement too -->
+<!-- <ui-select ng-model="selected" theme="bootstrap">
+    <ui-select-choices repeat="item in values">
+        <span ng-bind-html="item.value"></span>
+    </ui-select-choices>
+</ui-select> -->

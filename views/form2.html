@@ -1,0 +1,25 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-5 col-md-offset-3">
+			<div align="center">
+				<h2>Shipping Details</h2>
+			</div>
+			<form ng-submit="form2_submit()" id="form_2">
+			<div class="form-group">
+				<textarea class="form-control" placeholder="Address 1" ng-model="address_1"></textarea>
+			</div>
+			<div class="form-group">
+				<textarea class="form-control" placeholder="Address 2" ng-model="address_2"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="number" name="phone_numer" placeholder="Phone Number" ng-model="phone_number" class="form-control">
+			</div>
+			<div align="center">
+				<button class="btn btn-primary" type="submit">Submit</button>
+				<button class="btn btn-warning" ng-click="reset('form_2')">Reset</button>
+				<a href="#/"><button class="btn btn-alert">Back</button></a>
+			</div>
+			</form>
+		</div>
+	</div>
+</div>
